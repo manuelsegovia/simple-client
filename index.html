@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" defer />
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous" defer></script>
+  <script src="./main.js" defer></script>
+  <title>Simple Viewer</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <H1>Upload & View Images</H1>
+    </header>
+      <!-- <section class="form-container"> -->
+        <form class="form-fileUpload">
+          <div class="inp-element">
+            <label for="fileRef"></i></label>
+            <input type="file" name="fileRef" id="" accept="image/* application/pdf">
+          </div>
+          <div class="inp-element">
+            <label for="referenceRevision">Rev.</label>
+            <input type="text" name="referenceRevision" id=""class="input-rev" default=" ">
+          </div>
+
+          <button type="submit" class="upload-btn">Click to <i class="fas fa-cloud-upload-alt"></i></button>
+        </form>
+      <!-- </section> -->
+      <section class="list">
+        <!-- <ul class="list-references">
+         
+        </ul> -->
+      </section>
+  </div>
+</body>
+</html>
